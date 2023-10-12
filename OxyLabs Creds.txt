@@ -1,5 +1,0 @@
-OxyLabs Creds
-username: yattishr
-password: Yattish8676
-
-curl 'https://realtime.oxylabs.io/v1/queries' --user 'yattishr:Yattish8676' -H 'Content-Type: application/json' -d '{"source": "universal_ecommerce", "url": "https://sandbox.oxylabs.io/products/1", "geo-location": "United States", "render": "html"}' -v
