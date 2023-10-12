@@ -1,0 +1,236 @@
+{
+  results: [
+    {
+      content: [Object],
+      created_at: '2023-10-11 13:27:20',
+      updated_at: '2023-10-11 13:27:27',
+      page: 1,
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      job_id: '7117863241325249537',
+      status_code: 200,
+      parser_type: ''
+    },
+    {
+      content: [Object],
+      created_at: '2023-10-11 13:27:20',
+      updated_at: '2023-10-11 13:27:29',
+      page: 2,
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=20&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      job_id: '7117863241325249537',
+      status_code: 200,
+      parser_type: ''
+    },
+    {
+      content: [Object],
+      created_at: '2023-10-11 13:27:20',
+      updated_at: '2023-10-11 13:27:34',
+      page: 3,
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=40&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      job_id: '7117863241325249537',
+      status_code: 200,
+      parser_type: ''
+    }
+  ],
+  job: {
+    callback_url: 'https://realtime.oxylabs.io:443/api/done',
+    client_id: 32460,
+    context: [ [Object], [Object], [Object], [Object], [Object] ],
+    created_at: '2023-10-11 13:27:20',
+    domain: 'com',
+    geo_location: null,
+    id: '7117863241325249537',
+    limit: 10,
+    locale: null,
+    pages: 3,
+    parse: true,
+    parser_type: null,
+    parsing_instructions: null,
+    browser_instructions: null,
+    render: null,
+    url: null,
+    query: 'Macbook%20Pro',
+    source: 'google_shopping_search',
+    start_page: 1,
+    status: 'done',
+    storage_type: null,
+    storage_url: null,
+    subdomain: 'www',
+    content_encoding: 'utf-8',
+    updated_at: '2023-10-11 13:27:34',
+    user_agent_type: 'desktop',
+    session_info: null,
+    statuses: [],
+    client_notes: null,
+    _links: [ [Object], [Object] ]
+  }
+}
+[
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      page: 1,
+      results: [Object],
+      last_visible_page: 7,
+      parse_status_code: 12000
+    },
+    created_at: '2023-10-11 13:27:20',
+    updated_at: '2023-10-11 13:27:27',
+    page: 1,
+    url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+    job_id: '7117863241325249537',
+    status_code: 200,
+    parser_type: ''
+  },
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=20&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      page: 2,
+      results: [Object],
+      last_visible_page: 10,
+      parse_status_code: 12000
+    },
+    created_at: '2023-10-11 13:27:20',
+    updated_at: '2023-10-11 13:27:29',
+    page: 2,
+    url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=20&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+    job_id: '7117863241325249537',
+    status_code: 200,
+    parser_type: ''
+  },
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=40&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      page: 3,
+      results: [Object],
+      last_visible_page: 10,
+      parse_status_code: 12000
+    },
+    created_at: '2023-10-11 13:27:20',
+    updated_at: '2023-10-11 13:27:34',
+    page: 3,
+    url: 'https://www.google.com/search?tbm=shop&q=Macbook%2520Pro&num=20&start=40&tbs=ppr_min:250,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+    job_id: '7117863241325249537',
+    status_code: 200,
+    parser_type: ''
+  }
+]
+
+====
+{
+  results: [
+    {
+      content: [Object],
+      created_at: '2023-10-12 10:09:57',
+      updated_at: '2023-10-12 10:10:00',
+      page: 1,
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+      job_id: '7118175957113962497',
+      status_code: 200,
+      parser_type: ''
+    },
+    {
+      content: [Object],
+      created_at: '2023-10-12 10:09:57',
+      updated_at: '2023-10-12 10:10:03',
+      page: 2,
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=20&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+      job_id: '7118175957113962497',
+      status_code: 200,
+      parser_type: ''
+    },
+    {
+      content: [Object],
+      created_at: '2023-10-12 10:09:57',
+      updated_at: '2023-10-12 10:10:10',
+      page: 3,
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=40&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      job_id: '7118175957113962497',
+      status_code: 200,
+      parser_type: ''
+    }
+  ],
+  job: {
+    callback_url: 'https://realtime.oxylabs.io:443/api/done',
+    client_id: 32460,
+    context: [ [Object], [Object], [Object], [Object], [Object] ],
+    created_at: '2023-10-12 10:09:57',
+    domain: 'com',
+    geo_location: null,
+    id: '7118175957113962497',
+    limit: 10,
+    locale: null,
+    pages: 3,
+    parse: true,
+    parser_type: null,
+    parsing_instructions: null,
+    browser_instructions: null,
+    render: null,
+    url: null,
+    query: 'playstation%205',
+    source: 'google_shopping_search',
+    start_page: 1,
+    status: 'done',
+    storage_type: null,
+    storage_url: null,
+    subdomain: 'www',
+    content_encoding: 'utf-8',
+    updated_at: '2023-10-12 10:10:10',
+    user_agent_type: 'desktop',
+    session_info: null,
+    statuses: [],
+    client_notes: null,
+    _links: [ [Object], [Object] ]
+  }
+}
+[
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+      page: 1,
+      results: [Object],
+      last_visible_page: 5,
+      parse_status_code: 12000
+    },
+    created_at: '2023-10-12 10:09:57',
+    updated_at: '2023-10-12 10:10:00',
+    page: 1,
+    url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+    job_id: '7118175957113962497',
+    status_code: 200,
+    parser_type: ''
+  },
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=20&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+      page: 2,
+      results: [Object],
+      _warnings: [Array],
+      last_visible_page: -1,
+      parse_status_code: 12005
+    },
+    created_at: '2023-10-12 10:09:57',
+    updated_at: '2023-10-12 10:10:03',
+    page: 2,
+    url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=20&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en&ucbcb=1',
+    job_id: '7118175957113962497',
+    status_code: 200,
+    parser_type: ''
+  },
+  {
+    content: {
+      url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=40&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+      page: 3,
+      results: [Object],
+      last_visible_page: 10,
+      parse_status_code: 12000
+    },
+    created_at: '2023-10-12 10:09:57',
+    updated_at: '2023-10-12 10:10:10',
+    page: 3,
+    url: 'https://www.google.com/search?tbm=shop&q=playstation%25205&num=20&start=40&tbs=ppr_min:500,price:1&uule=w+CAIQICINdW5pdGVkIHN0YXRlcw&gl=us&hl=en',
+    job_id: '7118175957113962497',
+    status_code: 200,
+    parser_type: ''
+  }
+]
+====
