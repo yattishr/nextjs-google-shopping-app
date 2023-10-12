@@ -22,7 +22,7 @@ export async function GET(request: Request, { params: { id } }: Params) {
     },
     cache: "no-store",
     body: JSON.stringify({
-      source: "google_shopping_search",
+      source: "google_shopping_product",
       domain: "com",
       query: id,
       parse: true,
