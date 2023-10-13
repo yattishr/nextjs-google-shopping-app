@@ -12,7 +12,7 @@ function ResultsList({ results, term }: Props) {
     <div className="flex md:px-5">
       {/* side bar */}
       <div className="w-36 md:w-64">
-        {results.map((pageResult) => (
+        {results.map((pageResult, i) => (
           <div key={pageResult.job_id} className="space-y-2">
             {pageResult.content.results.filters?.map((filter, i) => (
               <div key={i} className="border rounded-r-lg md:rounded-lg p-5">
