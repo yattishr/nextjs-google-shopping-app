@@ -28,8 +28,8 @@ function LoadingPage() {
               </h2>
             </div>
 
-            {[...Array(10)].map((item) => (
-              <div key={item} className="p-5 border rounded-2xl">
+            {[...Array(10)].map((item, i) => (
+              <div key={i} className="p-5 border rounded-2xl">
                 <Skeleton count={2} />
                 <br />
                 <Skeleton count={1} />

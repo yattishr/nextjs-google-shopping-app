@@ -18,8 +18,8 @@ function ResultsList({ results, term }: Props) {
               <div key={i} className="border rounded-r-lg md:rounded-lg p-5">
                 <p className="font-bold">{filter.name}</p>
                 <div className="flex flex-col">
-                  {filter.values.map((value) => (
-                    <Link
+                  {filter.values.map((value, i) => (
+                    <Link key={i}
                       prefetch={false}
                       href={`https://google.com${value.url}`}
                     >
