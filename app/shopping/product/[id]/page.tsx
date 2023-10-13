@@ -58,8 +58,9 @@ async function ProductPage({ params: { id } }: Props) {
             <div className="flex flex-col justify-between">
               {productData.content.images?.full_size
                 .slice(1, 3)
-                .map((image) => (
+                .map((image, i) => (
                   <img
+                    key={i}
                     src={image}
                     alt={productData.content.title}
                     className="w-[9.5rem] h-[9.5rem] object-contain border rounded-md"
@@ -70,8 +71,9 @@ async function ProductPage({ params: { id } }: Props) {
 
           {/* thumbnail images */}
           <div className="flex space-x-6 overflow-x-scroll py-2 md:x-[30rem]">
-            {productData.content.images?.full_size.slice(3).map((image) => (
+            {productData.content.images?.full_size.slice(3).map((image, i) => (
               <img
+                key={i}
                 src={image}
                 alt={productData.content.title}
                 className="w-20 h-20 object-contain"
@@ -122,8 +124,8 @@ async function ProductPage({ params: { id } }: Props) {
                 <h3 className="font-bold text-2xl">Product Highlights</h3>
                 <hr />
                 <ul className="space-y-2">
-                  {productData.content.highlights?.map((hightlight) => (
-                    <li className="list-disc">{hightlight}</li>
+                  {productData.content.highlights?.map((hightlight, i) => (
+                    <li key={i} className="list-disc">{hightlight}</li>
                   ))}
                 </ul>
               </div>
@@ -161,14 +163,14 @@ async function ProductPage({ params: { id } }: Props) {
                     <StarIcon key={i} className="h-5 w-5 text-yellow-500" />
                   ))}
                 </div>
-                <p>"{productData.content.reviews.top_review.text}"</p>
+                <p>{productData.content.reviews.top_review.text}</p>
               </div>
             )}
           </>
         ) : (
           <div>
             <h3 className="font-bold text-2xl">Reviews</h3>
-            <h4 className="text-lg italic">No review's yet</h4>
+            <h4 className="text-lg italic">No reviews yet</h4>
           </div>
         )}
       </section>
